@@ -1,0 +1,145 @@
+2025-01-03 12:36:20.399 +01:00 [INF] Now listening on: https://localhost:7110
+2025-01-03 12:36:20.442 +01:00 [INF] Now listening on: http://localhost:5289
+2025-01-03 12:36:20.540 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 12:36:20.543 +01:00 [INF] Hosting environment: Development
+2025-01-03 12:36:20.544 +01:00 [INF] Content root path: C:\repoesempio\ApiAziendaLogin
+2025-01-03 12:36:21.461 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger - null null
+2025-01-03 12:36:21.677 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger - 301 0 null 222.9998ms
+2025-01-03 12:36:21.686 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:36:21.786 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 100.4087ms
+2025-01-03 12:36:21.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/swagger-ui.css - null null
+2025-01-03 12:36:21.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:36:21.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-03 12:36:21.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/swagger-ui-bundle.js - null null
+2025-01-03 12:36:21.822 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:36:21.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 11.8116ms
+2025-01-03 12:36:21.861 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-03 12:36:21.861 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-03 12:36:21.867 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/swagger-ui.css - 200 152034 text/css 50.7852ms
+2025-01-03 12:36:21.867 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 50.5122ms
+2025-01-03 12:36:21.892 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-03 12:36:21.894 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 78.3614ms
+2025-01-03 12:36:21.959 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.3437ms
+2025-01-03 12:36:22.154 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:36:22.160 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/favicon-32x32.png - null null
+2025-01-03 12:36:22.164 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-03 12:36:22.173 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/favicon-32x32.png - 200 628 image/png 13.1713ms
+2025-01-03 12:36:22.174 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.491ms
+2025-01-03 12:36:35.646 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/api/Magazzino - null null
+2025-01-03 12:36:35.652 +01:00 [INF] Executing endpoint 'ApiAziendaLogin.Controllers.MagazzinoController.GetSingoloProdotto (ApiAziendaLogin)'
+2025-01-03 12:36:35.720 +01:00 [INF] Route matched with {action = "GetSingoloProdotto", controller = "Magazzino"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetSingoloProdotto() on controller ApiAziendaLogin.Controllers.MagazzinoController (ApiAziendaLogin).
+2025-01-03 12:36:35.725 +01:00 [INF] Esempio di log
+2025-01-03 12:36:35.728 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-03 12:36:35.735 +01:00 [INF] Executed action ApiAziendaLogin.Controllers.MagazzinoController.GetSingoloProdotto (ApiAziendaLogin) in 7.5245ms
+2025-01-03 12:36:35.736 +01:00 [INF] Executed endpoint 'ApiAziendaLogin.Controllers.MagazzinoController.GetSingoloProdotto (ApiAziendaLogin)'
+2025-01-03 12:36:35.736 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/api/Magazzino - 200 null text/plain; charset=utf-8 90.8492ms
+2025-01-03 12:38:49.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:38:49.714 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 31.616ms
+2025-01-03 12:38:49.788 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:38:49.793 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 4.5994ms
+2025-01-03 12:38:49.797 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:38:49.836 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.8985ms
+2025-01-03 12:38:50.227 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:38:50.240 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Magazzino" for actions - ApiAziendaLogin.Controllers.MagazzinoController.GetSingoloProdotto (ApiAziendaLogin),ApiAziendaLogin.Controllers.MagazzinoController.GetProdotto2 (ApiAziendaLogin). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-03 12:38:50.294 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 66.7542ms
+2025-01-03 12:39:09.630 +01:00 [INF] Now listening on: https://localhost:7110
+2025-01-03 12:39:09.671 +01:00 [INF] Now listening on: http://localhost:5289
+2025-01-03 12:39:09.752 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 12:39:09.754 +01:00 [INF] Hosting environment: Development
+2025-01-03 12:39:09.754 +01:00 [INF] Content root path: C:\repoesempio\ApiAziendaLogin
+2025-01-03 12:39:10.701 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:39:10.951 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 274.3103ms
+2025-01-03 12:39:10.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:39:10.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:39:11.021 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 27.4945ms
+2025-01-03 12:39:11.076 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.1657ms
+2025-01-03 12:39:11.157 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:39:11.168 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Magazzino" for actions - ApiAziendaLogin.Controllers.MagazzinoController.GetSingoloProdotto (ApiAziendaLogin),ApiAziendaLogin.Controllers.MagazzinoController.GetProdotto2 (ApiAziendaLogin). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-03 12:39:11.176 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 19.5748ms
+2025-01-03 12:39:49.299 +01:00 [INF] Now listening on: https://localhost:7110
+2025-01-03 12:39:49.361 +01:00 [INF] Now listening on: http://localhost:5289
+2025-01-03 12:39:49.491 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 12:39:49.493 +01:00 [INF] Hosting environment: Development
+2025-01-03 12:39:49.494 +01:00 [INF] Content root path: C:\repoesempio\ApiAziendaLogin
+2025-01-03 12:39:49.911 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:39:50.134 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 232.1746ms
+2025-01-03 12:39:50.166 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:39:50.167 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:39:50.178 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 11.0347ms
+2025-01-03 12:39:50.235 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.0859ms
+2025-01-03 12:39:50.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:39:50.327 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.3447ms
+2025-01-03 12:41:33.308 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:41:33.342 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 33.6814ms
+2025-01-03 12:41:33.378 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:41:33.379 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:41:33.384 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 6.3271ms
+2025-01-03 12:41:33.432 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.9923ms
+2025-01-03 12:41:33.533 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:41:33.541 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.0451ms
+2025-01-03 12:41:44.794 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:41:44.805 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 12.2874ms
+2025-01-03 12:41:44.837 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:41:44.840 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:41:44.845 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 8.8984ms
+2025-01-03 12:41:44.871 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7751ms
+2025-01-03 12:41:44.938 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:41:44.948 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8458ms
+2025-01-03 12:43:51.042 +01:00 [INF] Now listening on: https://localhost:7110
+2025-01-03 12:43:51.088 +01:00 [INF] Now listening on: http://localhost:5289
+2025-01-03 12:43:51.188 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 12:43:51.191 +01:00 [INF] Hosting environment: Development
+2025-01-03 12:43:51.193 +01:00 [INF] Content root path: C:\repoesempio\ApiAziendaLogin
+2025-01-03 12:43:51.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:43:52.115 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 312.6067ms
+2025-01-03 12:43:52.156 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:43:52.158 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:43:52.173 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 16.4311ms
+2025-01-03 12:43:52.228 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.4329ms
+2025-01-03 12:43:52.305 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:43:52.322 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.8326ms
+2025-01-03 12:49:39.038 +01:00 [INF] Now listening on: https://localhost:7110
+2025-01-03 12:49:39.102 +01:00 [INF] Now listening on: http://localhost:5289
+2025-01-03 12:49:39.231 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 12:49:39.237 +01:00 [INF] Hosting environment: Development
+2025-01-03 12:49:39.240 +01:00 [INF] Content root path: C:\repoesempio\ApiAziendaLogin
+2025-01-03 12:49:39.825 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/index.html - null null
+2025-01-03 12:49:40.051 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/index.html - 200 null text/html;charset=utf-8 237.7486ms
+2025-01-03 12:49:40.083 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-03 12:49:40.083 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - null null
+2025-01-03 12:49:40.098 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 15.8981ms
+2025-01-03 12:49:40.150 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.8897ms
+2025-01-03 12:49:40.225 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - null null
+2025-01-03 12:49:40.243 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.0021ms
+2025-01-03 12:49:53.598 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/api/Magazzino/prodotto/1 - null null
+2025-01-03 12:49:53.614 +01:00 [INF] Executing endpoint 'MagazzinoController.GetProdotto (ApiAziendaLogin)'
+2025-01-03 12:49:53.704 +01:00 [INF] Route matched with {action = "GetProdotto", controller = "Magazzino"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProdotto(Int32) on controller MagazzinoController (ApiAziendaLogin).
+2025-01-03 12:49:53.724 +01:00 [INF] Prodotto con ID 1 trovato.
+2025-01-03 12:49:53.729 +01:00 [INF] Executing OkObjectResult, writing value of type 'ApiAziendaLogin.Models.Prodotto'.
+2025-01-03 12:49:53.741 +01:00 [INF] Executed action MagazzinoController.GetProdotto (ApiAziendaLogin) in 31.6708ms
+2025-01-03 12:49:53.741 +01:00 [INF] Executed endpoint 'MagazzinoController.GetProdotto (ApiAziendaLogin)'
+2025-01-03 12:49:53.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/api/Magazzino/prodotto/1 - 200 null application/json; charset=utf-8 144.3548ms
+2025-01-03 12:52:49.243 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7110/api/Magazzino/GetListProdotti - null null
+2025-01-03 12:52:49.246 +01:00 [INF] Executing endpoint 'MagazzinoController.GetTuttiProdotti (ApiAziendaLogin)'
+2025-01-03 12:52:49.292 +01:00 [INF] Route matched with {action = "GetTuttiProdotti", controller = "Magazzino"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTuttiProdotti() on controller MagazzinoController (ApiAziendaLogin).
+2025-01-03 12:52:49.297 +01:00 [INF] Recuperando tutti i prodotti
+2025-01-03 12:52:49.298 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiAziendaLogin.Models.Prodotto, ApiAziendaLogin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-03 12:52:49.300 +01:00 [INF] Executed action MagazzinoController.GetTuttiProdotti (ApiAziendaLogin) in 3.4774ms
+2025-01-03 12:52:49.307 +01:00 [INF] Executed endpoint 'MagazzinoController.GetTuttiProdotti (ApiAziendaLogin)'
+2025-01-03 12:52:49.308 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7110/api/Magazzino/GetListProdotti - 200 null application/json; charset=utf-8 66.7713ms
