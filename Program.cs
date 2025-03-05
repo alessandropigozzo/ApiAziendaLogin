@@ -1,5 +1,7 @@
-
 using Serilog;
+using Microsoft.EntityFrameworkCore;
+using ApiAziendaLogin.Models;
+using Newtonsoft.Json; // Importa Newtonsoft.Json
 
 namespace ApiAziendaLogin
 {
@@ -24,19 +26,25 @@ namespace ApiAziendaLogin
             // Imposta Serilog come il logger predefinito
             builder.Host.UseSerilog();
 
+            // Configura il DbContext per la connessione al database
+            builder.Services.AddDbContext<LoginDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+            );
 
+            // Aggiungi Newtonsoft.Json per la serializzazione dei JSON
+            builder.Services.AddControllers()
+                .AddNewtonsoftJson(options =>
+                {
+                    options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore; // Gestisce i loop di riferimento
+                });
 
-
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            // Aggiungi i servizi per Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Configura la pipeline delle richieste HTTP
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -44,10 +52,7 @@ namespace ApiAziendaLogin
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
 
             app.Run();
