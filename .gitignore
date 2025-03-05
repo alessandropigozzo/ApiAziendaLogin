@@ -4,3 +4,6 @@
 
 /.vs/ApiAziendaLogin
 /obj
+/.vs/ProjectEvaluation
+/bin/Debug/net8.0
+/Logs
